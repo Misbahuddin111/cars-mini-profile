@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple project</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-image: url(car.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            align-items: center;
+            border-bottom: 2px solid rgb(100, 112, 75);
+
+        }
+
+        .logo span {
+            font-size: 2rem;
+            font-weight: bold;
+            color: blueviolet;
+            font-style: italic;
+
+        }
+
+        .logo {
+            font-size: 1.3rem;
+            letter-spacing: 4px;
+            color: blueviolet;
+        }
+
+        .panel {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .panel li {
+            display: inline;
+            margin: 10px;
+
+        }
+
+        .panel li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+
+        .nav-search input {
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+
+        .nav-search button {
+            border: none;
+            font-size: 0.80rem;
+            border-radius: 7px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        .nav-search button:hover {
+
+            background-color: blueviolet;
+        }
+
+        .nav-search input:hover {
+            border: 2px solid blueviolet;
+        }
+
+        .panel li a:hover {
+            color: aqua;
+        }
+
+        .main-sec {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+           
+        }
+
+        .main-sec h2 {
+            font-size: 2rem;
+            color: rgb(194, 28, 92);
+            padding-left: 15px;
+            width: 100%;
+           padding-left: 15%;
+        }
+
+        .main-sec h2 a {
+            font-size: 1.5rem;
+            color: rgb(152, 221, 24);
+            padding-left: 5px;
+            text-decoration: none;  
+        }
+
+        .main-sec h2 a:hover{
+            background-color: black;
+            font-size: 1.8rem;
+            color: white;
+        }
+
+.main-sec{
+    padding: 15px;
+    margin: 3rem;
+}
+        .main-sec p {
+            font-size: 1.5rem;
+            color:whitesmoke;
+            padding-left: 20px;
+            margin: 1.2rem;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <p><span>M</span>isbah.</p>
+            </div>
+
+            <div class="panel">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">others</a></li>
+                </ul>
+            </div>
+            <div class="nav-search">
+                <input type="search" placeholder="search"><button type="submit">Submit</button>
+            </div>
+        </div>
+    </header>
+    <div class="main-sec">
+        <div class="main">
+            <h2>Buy your favorite car <a href="#">Click More</a></h2>
+            <p>Lorem ipsum, dolor sit amet consectetveniam quis cu. Necessitatibus ab soluta asperiores neque.</p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
